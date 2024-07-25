@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer";
 function HomePage() {
   return (
     <>
-    <Navigation/>
+   
       <div>
         
         <MainCarosel />
@@ -21,7 +21,7 @@ function HomePage() {
           <HomeSectionCarosel data={mens_kurta} sectionName={"Women's Dress"} />
         </div>
       </div>
-      <Footer />
+   
     </>
   );
 }

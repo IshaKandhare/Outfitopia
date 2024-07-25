@@ -20,8 +20,7 @@ import {
 } from "@mui/material";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import { useLocation, useNavigate } from "react-router-dom";
-import Navigation from "../Navigation/Navigation";
-import Footer from "../Footer/Footer";
+
 const sortOptions = [
   { name: "Price: Low to High", href: "#", current: false },
   { name: "Price: High to Low", href: "#", current: false },
@@ -70,7 +69,7 @@ export default function Product({ product }) {
   };
   return (
     <>
-      <Navigation />
+     
 
       <div className="bg-white">
         <div>
@@ -464,7 +463,7 @@ export default function Product({ product }) {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   );
 }
